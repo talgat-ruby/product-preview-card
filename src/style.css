@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-bg);
+  min-height: 100vh;
+  font-family: var(--font-primary);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.75rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  border-radius: 10px;
+  background-color: white;
+  max-width: 21.5rem;
+}
+
+@media (width > 375px) {
+  .container {
+    flex-direction: row;
+    margin: auto;
+    max-width: 37.5rem;
+  }
+}

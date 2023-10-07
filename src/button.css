@@ -1,0 +1,29 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  outline: inherit;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--color-accent, #3d8168);
+  padding: 1rem 0;
+  width: 100%;
+  color: inherit;
+  font: inherit;
+
+  &:hover {
+    background: var(--color-accent-hover);
+  }
+
+  & .btn-text {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: normal;
+    font-feature-settings:
+      "clig" off,
+      "liga" off;
+  }
+}
