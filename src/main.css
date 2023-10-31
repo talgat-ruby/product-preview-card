@@ -1,6 +1,6 @@
 :root {
   --color-bg: hsla(30, 38%, 92%, 1);
-  --color-text-primary: hsla(212, 21%, 14%, 1);
+  --color-text-primary: tomato;
   --color-text-secondary: hsla(228, 12%, 48%, 1);
   --color-accent: hsla(157, 36%, 37%, 1);
   --color-accent-hover: hsla(157, 43%, 18%, 1);
