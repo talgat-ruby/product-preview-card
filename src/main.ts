@@ -6,4 +6,5 @@ import "@fontsource-variable/montserrat/wght-italic.css";
 import "./main.css";
 import "./button.css";
 import "./image.css";
+import "./description.css";
 import "./style.css";
